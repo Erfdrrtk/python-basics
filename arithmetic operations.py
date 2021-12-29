@@ -45,6 +45,15 @@ if x == 10:
 5 >= 5
 6 > 5
 
+# operator precedence (basic math stuff):
+x = (10 + 3) * 2 ** 2
+# 1. parenthesis
+# 2. exponentiation
+# 3. multiplication or division
+# 4. addition or subtraction
+
+
+
 
 
 
