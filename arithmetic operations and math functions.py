@@ -52,7 +52,19 @@ x = (10 + 3) * 2 ** 2
 # 3. multiplication or division
 # 4. addition or subtraction
 
+# this part is
+# round() returns said number to the nearest 10th
+x = 2.9
+Round = round(x)
 
+# abs() returns the absolute value of a number
+a = -2.9
+absolute = abs(a)
+
+# import math allows for advanced math functions to be used
+# such as acos() and asin()
+import math
+print(math.ceil(2.9))
 
 
 
