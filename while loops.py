@@ -11,17 +11,19 @@ while j != 7:
 
 # guessing game:
 print('''
---- 2nd Number ---''')
+--- 2nd example ---''')
 secret_number = 9
 limit = 3
 tries = 0
-guess = int(input('guess: '))
-while guess != secret_number:
-    if tries == limit:
-        print('out of tries')
+while tries < limit:
+    guess = int(input("guess: "))
+    tries += 1
+    if guess == secret_number:
+        print('you won')
         break
-    tries = tries + 1
-    guess = int(input('try again: '))
+else:
+    print('sorry you failed')
+
 
 
 
