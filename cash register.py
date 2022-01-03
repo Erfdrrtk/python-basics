@@ -13,7 +13,7 @@ def cashier():
             basket.append(user_answer)
             user_answer = input('anything else? (type quit to end) ').lower()
         else:
-            user_answer = input('''that is not in our inventory.:(type quit to end or add an item to your basket) ''')
+            user_answer = input('''that is not in our inventory.(type quit to end or add an item to your basket) ''')
 
 cashier()
 print(f"here are all the items in your shopping cart {basket}")
